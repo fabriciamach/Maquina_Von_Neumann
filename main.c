@@ -358,7 +358,7 @@ void Imprimir() {
   printf("\tMAR: %08x", mar);
   printf("\tIR:%02x", ir);
   printf("\tE:% 02x\n", e);
-  printf("IBR:%08x\t", ibr);
+  printf("IBR:%04x\t", ibr);
   printf("PC:%02x\t", pc);
   printf("A:%08x\t", a);
   printf("L:%02x\n", l);
